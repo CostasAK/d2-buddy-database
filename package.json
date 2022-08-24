@@ -1,0 +1,20 @@
+{
+  "name": "d2-buddy-database",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Information storage for d2-buddy. Includes scripts to pull info from the Bungie API periodically.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CostasAK/d2-buddy-database.git"
+  },
+  "author": "CostasAK (https://github.com/CostasAK)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CostasAK/d2-buddy-database/issues"
+  },
+  "homepage": "https://github.com/CostasAK/d2-buddy-database#readme"
+}
