@@ -1,15 +1,18 @@
 {
+  "type": "module",
   "name": "d2-buddy-database",
   "version": "1.0.0",
   "private": true,
   "description": "Information storage for d2-buddy. Includes scripts to pull info from the Bungie API periodically.",
   "dependencies": {
-    "axios": "^0.26.1"
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -r build",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "node": "node --require dotenv/config"
   },
   "prettier": {},
   "repository": {
