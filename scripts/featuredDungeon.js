@@ -37,8 +37,7 @@ if (!(featuredDungeon?.schedule?.[0]?.end >= Date.now())) {
           "/Destiny2/Manifest/DestinyActivityDefinition/" +
             milestone?.activities?.[0]?.activityHash
         ).then((data) => {
-          const name = data?.displayProperties?.name;
-          console.log(name);
+          const name = data?.displayProperties?.name?.split(": ")?.[0];
 
           featuredDungeon.schedule.unshift({ start, end, period, name });
 
