@@ -5,9 +5,8 @@ import { bungieApi } from "../functions/query.js";
 let featuredDungeon = JSON.parse(
   readFileSync("./data/featuredDungeon.json", "utf8")
 );
-console.log(featuredDungeon);
 
-if (!(featuredDungeon?.schedule?.[0]?.end < Date.now())) {
+if (!(featuredDungeon?.schedule?.[0]?.end >= Date.now())) {
   bungieApi("/Destiny2/Milestones/").then((data) => {
     console.log(data?.["1742973996"]);
 
