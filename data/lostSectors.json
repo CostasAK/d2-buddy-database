@@ -2,8 +2,8 @@
   "schedule": {
     "start": 1661274000000,
     "period": 86400000,
-    "locations": ["Concealed Void", null],
-    "drops": ["Chest"]
+    "locations": ["Concealed Void", "Bunker E15", null],
+    "drops": ["Chest", "Head"]
   },
   "info": {
     "Concealed Void": {
@@ -12,6 +12,16 @@
         "void": 3,
         "solar": 2,
         "arc": 1
+      },
+      "champions": {
+        "overload": 3,
+        "barrier": 1
+      }
+    },
+    "Bunker E15": {
+      "location": "Europa",
+      "shields": {
+        "void": 2
       },
       "champions": {
         "overload": 3,
