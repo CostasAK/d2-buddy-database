@@ -1,0 +1,24 @@
+{
+  "schedule": [
+    {
+      "timestamp": 1661274000000,
+      "name": "Concealed Void",
+      "reward": "Chest"
+    }
+  ],
+  "period": 86400000,
+  "info": {
+    "Concealed Void": {
+      "location": "Europa",
+      "shields": {
+        "void": 3,
+        "solar": 2,
+        "arc": 1
+      },
+      "champions": {
+        "overload": 3,
+        "barrier": 1
+      }
+    }
+  }
+}
