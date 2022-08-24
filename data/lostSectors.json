@@ -1,10 +1,10 @@
 {
   "schedule": {
     "start": 1661274000000,
+    "period": 86400000,
     "locations": ["Concealed Void", null],
     "drops": ["Chest", null]
   },
-  "period": 86400000,
   "info": {
     "Concealed Void": {
       "location": "Europa",
