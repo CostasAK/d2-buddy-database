@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "description": "Information storage for d2-buddy. Includes scripts to pull info from the Bungie API periodically.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "axios": "^0.26.1"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -r build",
+    "prepare": "husky install"
+  },
+  "prettier": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CostasAK/d2-buddy-database.git"
@@ -16,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/CostasAK/d2-buddy-database/issues"
   },
-  "homepage": "https://github.com/CostasAK/d2-buddy-database#readme"
+  "homepage": "https://github.com/CostasAK/d2-buddy-database#readme",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.6.2"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
+  }
 }
