@@ -3,7 +3,7 @@
     "start": 1661274000000,
     "period": 86400000,
     "locations": ["Concealed Void", null],
-    "drops": ["Chest", null]
+    "drops": ["Chest"]
   },
   "info": {
     "Concealed Void": {
