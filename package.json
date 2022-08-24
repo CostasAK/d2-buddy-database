@@ -30,6 +30,6 @@
     "prettier": "^2.6.2"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
+    "*.{js,json,md,yml}": "prettier --write"
   }
 }
