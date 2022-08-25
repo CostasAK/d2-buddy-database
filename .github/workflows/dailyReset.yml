@@ -40,7 +40,7 @@ jobs:
             data:
               - "data/**.json"
       - name: "Commit Data"
-        if: steps.updates.outputs.data == "true"
+        if: steps.updates.outputs.data == 'true'
         run: |
           git config user.name "CostasAK"
           git config user.email "CostasAK@users.noreply.github.com"
