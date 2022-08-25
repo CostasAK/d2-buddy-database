@@ -12,7 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -r build",
     "prepare": "husky install",
-    "node": "node --require dotenv/config"
+    "node": "node --require dotenv/config",
+    "scripts": "node scripts/index.js"
   },
   "prettier": {},
   "repository": {

@@ -1,0 +1,41 @@
+name: Run scripts on Daily Reset
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/dailyReset.yml"
+      - "scripts/**.js"
+      - "functions/**.js"
+      - package.json
+      - package-lock.json
+  schedule:
+    - cron: "0,5 17 * * *"
+
+jobs:
+  daily:
+    name: Run scripts on Daily Reset
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout Repository"
+        uses: actions/checkout@v3
+      - name: "Setup Node.js"
+        uses: actions/setup-node@v3
+        with:
+          node-version: "current"
+          cache: "npm"
+      - name: "Clean Install"
+        run: npm ci
+      - name: "Run"
+        run: npm run scripts
+        env:
+          BUNGIE_API_KEY: ${{ secrets.BUNGIE_API_KEY }}
+      - name: "Commit Data"
+        run: |
+          git config user.name "CostasAK"
+          git config user.email "CostasAK@users.noreply.github.com"
+          git add data/.
+          git commit -am "Automated Data Commit"
+          git push
