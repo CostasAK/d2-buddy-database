@@ -32,7 +32,15 @@ jobs:
         run: npm run scripts
         env:
           BUNGIE_API_KEY: ${{ secrets.BUNGIE_API_KEY }}
+      - name: "Check for Updates"
+        uses: dorny/paths-filter@v2
+        id: updates
+        with:
+          filters: |
+            data:
+              - "data/**.json"
       - name: "Commit Data"
+        if: steps.updates.outputs.data == "true"
         run: |
           git config user.name "CostasAK"
           git config user.email "CostasAK@users.noreply.github.com"
