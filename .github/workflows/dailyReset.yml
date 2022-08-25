@@ -12,7 +12,8 @@ on:
       - package.json
       - package-lock.json
   schedule:
-    - cron: "0,5 17 * * *"
+    - cron: "0 17 * * *"
+    - cron: "5 * * * *"
 
 jobs:
   daily:
