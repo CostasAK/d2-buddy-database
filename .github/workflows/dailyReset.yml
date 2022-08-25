@@ -37,6 +37,7 @@ jobs:
         uses: dorny/paths-filter@v2
         id: updates
         with:
+          base: HEAD
           filters: |
             data:
               - "data/**.json"
