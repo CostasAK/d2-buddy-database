@@ -2,8 +2,14 @@
   "schedule": {
     "start": 1661274000000,
     "period": 86400000,
-    "locations": ["Concealed Void", "Bunker E15", "The Conflux", null],
-    "drops": ["Chest", "Head", "Legs"]
+    "locations": [
+      "Concealed Void",
+      "Bunker E15",
+      "The Conflux",
+      "The Rift",
+      null
+    ],
+    "drops": ["Chest", "Head", "Legs", "Arms"]
   },
   "info": {
     "Concealed Void": {
@@ -13,6 +19,9 @@
       "location": "Europa"
     },
     "The Conflux": {
+      "location": "Nessus"
+    },
+    "The Rift": {
       "location": "Nessus"
     }
   }
