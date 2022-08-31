@@ -10,6 +10,7 @@
       "K1 Crew Quarters",
       "K1 Logistics",
       "K1 Communion",
+      "Skydock IV",
       null
     ],
     "drops": ["Chest", "Head", "Legs", "Arms"]
@@ -26,6 +27,18 @@
     },
     "The Rift": {
       "location": "Nessus"
+    },
+    "K1 Crew Quarters": {
+      "location": "Moon"
+    },
+    "K1 Logistics": {
+      "location": "Moon"
+    },
+    "K1 Communion": {
+      "location": "Moon"
+    },
+    "Skydock IV": {
+      "location": "EDZ"
     }
   }
 }
