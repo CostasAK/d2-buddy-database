@@ -1,19 +1,19 @@
 {
   "schedule": {
-    "start": 1661274000000,
+    "start": 1663434000000,
     "period": 86400000,
     "locations": [
-      "Concealed Void",
-      "Bunker E15",
       "The Conflux",
-      "Perdition",
       "K1 Crew Quarters",
       "K1 Logistics",
       "K1 Communion",
       "Skydock IV",
       "Scavenger's Den",
       "The Quarry",
-      "Excavation Site XII"
+      "Excavation Site XII",
+      "Concealed Void",
+      "Bunker E15",
+      "Perdition"
     ],
     "drops": ["Chest", "Head", "Legs", "Arms"]
   },
