@@ -1,6 +1,12 @@
 {
   "schedule": [
     {
+      "start": 1663693200000,
+      "end": 1664298000000,
+      "period": 604800000,
+      "name": "The Shattered Throne"
+    },
+    {
       "start": 1663088400000,
       "end": 1663693200000,
       "period": 604800000,
