@@ -15,7 +15,7 @@
       "Bunker E15",
       "Perdition"
     ],
-    "drops": ["Chest", "Head", "Legs", "Arms"]
+    "drops": ["Head", "Legs", "Arms", "Chest"]
   },
   "info": {
     "Concealed Void": {
