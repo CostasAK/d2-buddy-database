@@ -1,6 +1,36 @@
 {
   "schedule": [
     {
+      "start": 1666717200000,
+      "end": 1667322000000,
+      "period": 604800000,
+      "name": "Vow of the Disciple"
+    },
+    {
+      "start": 1666112400000,
+      "end": 1666717200000,
+      "period": 604800000,
+      "name": "Vault of Glass"
+    },
+    {
+      "start": 1665507600000,
+      "end": 1666112400000,
+      "period": 604800000,
+      "name": "Deep Stone Crypt"
+    },
+    {
+      "start": 1664902800000,
+      "end": 1665507600000,
+      "period": 604800000,
+      "name": "Garden of Salvation"
+    },
+    {
+      "start": 1664298000000,
+      "end": 1664902800000,
+      "period": 604800000,
+      "name": "Last Wish"
+    },
+    {
       "start": 1663693200000,
       "end": 1664298000000,
       "period": 604800000,
