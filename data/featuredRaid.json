@@ -1,6 +1,12 @@
 {
   "schedule": [
     {
+      "start": 1669741200000,
+      "end": 1670346000000,
+      "period": 604800000,
+      "name": "Vow of the Disciple"
+    },
+    {
       "start": 1669136400000,
       "end": 1669741200000,
       "period": 604800000,
