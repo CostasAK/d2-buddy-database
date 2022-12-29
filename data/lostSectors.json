@@ -1,23 +1,35 @@
 {
   "schedule": {
-    "start": 1663434000000,
+    "start": 1672160400000,
     "period": 86400000,
     "locations": [
-      "The Conflux",
-      "K1 Crew Quarters",
+      "Aphelion's Rest",
       "K1 Logistics",
+      "K1 Crew Quarters",
+      "K1 Revelation",
       "K1 Communion",
-      "Skydock IV",
-      "Scavenger's Den",
-      "The Quarry",
-      "Excavation Site XII",
-      "Concealed Void",
       "Bunker E15",
-      "Perdition"
+      "Concealed Void",
+      "Perdition",
+      "Sepulcher",
+      "Extraction",
+      "Chamber of Starlight"
     ],
     "drops": ["Head", "Legs", "Arms", "Chest"]
   },
   "info": {
+    "Aphelion's Rest": {
+      "location": "Dreaming City"
+    },
+    "Chamber of Starlight": {
+      "location": "Dreaming City"
+    },
+    "Sepulcher": {
+      "location": "Throne World"
+    },
+    "Extraction": {
+      "location": "Throne World"
+    },
     "Concealed Void": {
       "location": "Europa"
     },
@@ -37,6 +49,9 @@
       "location": "Moon"
     },
     "K1 Communion": {
+      "location": "Moon"
+    },
+    "K1 Revelation": {
       "location": "Moon"
     },
     "Skydock IV": {
