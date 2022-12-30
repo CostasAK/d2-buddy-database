@@ -1,4 +1,8 @@
+import * as dotenv from "dotenv";
+
 import axios from "axios";
+
+dotenv.config();
 
 const bungie_api = axios.create({
   baseURL: "https://www.bungie.net/Platform",
