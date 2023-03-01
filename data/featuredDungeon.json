@@ -1,34 +1,10 @@
 {
   "schedule": [
     {
-      "start": 1663693200000,
-      "end": 1664298000000,
-      "period": 604800000,
-      "name": "The Shattered Throne"
-    },
-    {
-      "start": 1663088400000,
-      "end": 1663693200000,
-      "period": 604800000,
-      "name": "Grasp of Avarice"
-    },
-    {
-      "start": 1662483600000,
-      "end": 1663088400000,
+      "start": 1677603600000,
+      "end": 1678208400000,
       "period": 604800000,
       "name": "Prophecy"
-    },
-    {
-      "start": 1661878800000,
-      "end": 1662483600000,
-      "period": 604800000,
-      "name": "Pit of Heresy"
-    },
-    {
-      "start": 1661274000000,
-      "end": 1661878800000,
-      "period": 604800000,
-      "name": "The Shattered Throne"
     }
   ]
 }
