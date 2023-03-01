@@ -1,23 +1,15 @@
 {
   "schedule": {
-    "start": 1672160400000,
+    "start": 1677603600000,
     "period": 86400000,
     "locations": [
-      "Aphelion's Rest",
-      "K1 Logistics",
-      "K1 Crew Quarters",
-      "K1 Revelation",
-      "K1 Communion",
-      "Bunker E15",
-      "Concealed Void",
-      "Perdition",
-      "Sepulcher",
-      "Extraction",
-      "Chamber of Starlight"
+      "Thrilladrome",
+      null
     ],
-    "drops": ["Head", "Legs", "Arms", "Chest"]
+    "drops": ["Chest", "Head", "Legs", "Arms"]
   },
   "info": {
+    "Thrilladrome": {"location": "Neonuma"},
     "Aphelion's Rest": {
       "location": "Dreaming City"
     },
