@@ -4,12 +4,16 @@
     "period": 86400000,
     "locations": [
       "Thrilladrome",
+      "Hydroponics Delta",
+      "Gilded Precept",
       null
     ],
     "drops": ["Chest", "Head", "Legs", "Arms"]
   },
   "info": {
     "Thrilladrome": {"location": "Neonuma"},
+    "Hydroponics Delta": {"location": "Neonuma"},
+    "Gilded Precept": {"location": "Neonuma"},
     "Aphelion's Rest": {
       "location": "Dreaming City"
     },
