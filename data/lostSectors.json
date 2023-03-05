@@ -6,14 +6,16 @@
       "Thrilladrome",
       "Hydroponics Delta",
       "Gilded Precept",
+      "Excavation Site XII",
+      "Skydock IV",
       null
     ],
     "drops": ["Chest", "Head", "Legs", "Arms"]
   },
   "info": {
-    "Thrilladrome": {"location": "Neonuma"},
-    "Hydroponics Delta": {"location": "Neonuma"},
-    "Gilded Precept": {"location": "Neonuma"},
+    "Thrilladrome": { "location": "Neonuma" },
+    "Hydroponics Delta": { "location": "Neonuma" },
+    "Gilded Precept": { "location": "Neonuma" },
     "Aphelion's Rest": {
       "location": "Dreaming City"
     },
