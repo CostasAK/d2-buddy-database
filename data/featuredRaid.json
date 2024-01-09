@@ -1,6 +1,12 @@
 {
   "schedule": [
     {
+      "start": 1704819600000,
+      "end": 1705424400000,
+      "period": 604800000,
+      "name": "Root of Nightmares"
+    },
+    {
       "start": 1704214800000,
       "end": 1704819600000,
       "period": 604800000,
