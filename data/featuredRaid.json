@@ -1,6 +1,12 @@
 {
   "schedule": [
     {
+      "start": 1727802000000,
+      "end": 1728406800000,
+      "period": 604800000,
+      "name": "Garden of Salvation"
+    },
+    {
       "start": 1727197200000,
       "end": 1727802000000,
       "period": 604800000,
